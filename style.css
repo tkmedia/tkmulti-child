@@ -1,0 +1,21 @@
+/*
+Theme Name: TKMulti Child
+Theme URI: http://www.tkmedia.co.il
+Author: Tal Katz
+Author URI: https://www.tkmedia.co.il
+Description: Child Theme For tkmulti a WordPress theme from Scratch 
+Template: tkmulti
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tkmulti-child
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Database Reset -------------------------------------------------------------------- */
+
+.tools_page_database-reset #wpbody-content #vc_license-activation-notice,
+.tools_page_database-reset #wpbody-content #setting-error-tgmpa,
+.tools_page_database-reset #wpbody-content #message{display:none}

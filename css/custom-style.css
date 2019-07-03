@@ -3,7 +3,6 @@
 /* General Styles */
 body, 
 .masthead_clean_title h1.entry-title.masthead_content_title {font-family: 'Heebo', sans-serif !important;}
-.wrap {max-width: 1680px !important;padding: 0 45px;}
 
 @media only screen and (max-width: 991px) {
 

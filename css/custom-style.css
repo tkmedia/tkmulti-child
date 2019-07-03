@@ -64,14 +64,6 @@ transition: all .3s ease-in-out;
 li.social-item.site_phone {border-right: none;font-size: 19px;font-weight: bold;}
 li.social-item.site_phone i {padding: 0 10px 0 0;font-size: 22px;}
 #header-info ul.social-bar {position: relative;top: 0;left: 0;order: 1;margin: 0;}
-.header_topbar_container.top_panel {
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e5e6e6+0,f7f7f7+100 */
-background: rgb(229,230,230); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(229,230,230,1) 0%, rgba(247,247,247,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(229,230,230,1) 0%,rgba(247,247,247,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(229,230,230,1) 0%,rgba(247,247,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e6e6', endColorstr='#f7f7f7',GradientType=1 ); /* IE6-9 */
-}
 
 #menu-panel>li {font-size: 15px;color: #5f5f5f;border-right: 1px solid #dfdfdf;}
 @media (max-width: 767px) {

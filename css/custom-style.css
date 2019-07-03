@@ -22,8 +22,6 @@ body,
 	.site.header_light header .menu > ul > li a {color: #3f3f3f;height: auto;margin: 0;border-right: 1px solid #e3e3e4;}
 	.site.header_light header .menu > ul > li:first-child a {border: none;}
 	.normal_menu .menu > ul > li > ul.normal-sub > li:hover {background-color: #e0e2e2;}
-	.normal_menu .nav-primary.menu > ul > li {padding: 0 0px;}
-	.normal_menu .nav-primary.menu > ul > li a {padding: 0 10px;}
 	.normal_menu.site.header_light header .menu-dropdown-icon > a {padding-left: 30px !important;}
 	.normal_menu.site.header_light header .menu-dropdown-icon > a:after {padding-left: 10px;}
 }

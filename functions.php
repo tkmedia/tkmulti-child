@@ -16,3 +16,8 @@ function tkmulti_child_google_fonts() {
 	wp_enqueue_style('tkmulti_fonts_Assistant', 'https://fonts.googleapis.com/css?family=Heebo:400,500,700&display=swap&subset=hebrew'); 
 }
 add_action( 'wp_enqueue_scripts', 'tkmulti_child_google_fonts' ); 
+
+// TGM ------------------------------------------------------------------
+if( is_admin() ){
+	include_once get_stylesheet_directory_uri() .'/inc/class-mfn-tgmpa.php';
+}

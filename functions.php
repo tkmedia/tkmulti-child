@@ -7,10 +7,10 @@ function parent_theme_field_groups($paths) {
   return $paths;
 }
 
-add_action( 'wp_enqueue_scripts', 'my_plugin_add_stylesheet' );
-function my_plugin_add_stylesheet() {
+function tkmulti_child_add_stylesheet() {
     wp_enqueue_style( 'theme-style', get_stylesheet_directory_uri() . '/css/theme-style.css', false, '1.0', 'all' );
 }
+add_action( 'wp_enqueue_scripts', 'tkmulti_child_add_stylesheet', 999 );
 
 /* ---------------------------------------------------------------------------
  * Theme Fonts URL

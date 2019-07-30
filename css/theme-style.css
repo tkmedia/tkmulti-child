@@ -2,7 +2,8 @@
 -------------------------------------------------------------- */
 /* General Styles */
 body, 
-.masthead_clean_title h1.entry-title.masthead_content_title {font-family: 'Assistant', sans-serif !important;}
+.masthead_clean_title h1.entry-title.masthead_content_title, 
+.eapps-instagram-feed-posts-grid-load-more-visible {font-family: 'Assistant', sans-serif !important;}
 
 @media only screen and (max-width: 991px) {
 
